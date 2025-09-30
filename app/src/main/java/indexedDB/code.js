@@ -22,10 +22,12 @@ document.getElementById(`add`).addEventListener("click", () => {
     if (nombre.length > 0) {
         if (document.querySelector(".posible")!= undefined) {
             if (confirm("Hay cambios sin guardar, ¿desea continuar?")) 
-                addObjeto({ nombre });
+                addObjeto({ nombre : nombre.value });
+                nombre.value = "";
                 leerObjetos();      
             } else {
-                addObjeto({ nombre });
+                addObjeto({ nombre : nombre.value });
+                nombre.value = "";
                 leerObjetos();
             }
         }
