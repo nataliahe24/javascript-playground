@@ -1,0 +1,58 @@
+body{
+    color: #333;
+    font-family:sans-serif;
+    
+}
+
+input {
+  width: 90%;
+  padding: 9px;
+  margin: 12px 5%;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  color: #013;
+  border-top: 2px solid #48e;
+  
+}
+
+input:hover {
+  background: #26a;
+}
+
+input:hover::placeholder {
+  color: #fff;
+}
+
+input[type="submit"] {
+  width: 60%;
+  padding: 12px;
+  background: #26a;
+  color: #fff;
+  margin: 18px 2%;
+  margin-bottom: 12px;
+}
+
+input[type="submit"]:hover {
+  background: #048;
+}
+
+form {
+  width: 86%;
+  margin: auto;
+  background: #048;
+  padding: 30px;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.green {
+  color: #9c9;
+}
+
+.red {
+  color: rgb(221, 15, 15);
+}
